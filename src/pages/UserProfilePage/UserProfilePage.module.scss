@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  gap: 15px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 30px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 186px);
+}

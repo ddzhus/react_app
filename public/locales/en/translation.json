@@ -1,0 +1,15 @@
+{
+  "btn_login": "Log in",
+  "btn_logout": "Log out",
+  "nav_item_users": "Users",
+  "nav_item_userInfo": "User info",
+  "nav_item_logout": "Log out",
+  "plug": "Select a user to see its information",
+  "user_info_name": "Name",
+  "user_info_surname": "Surname",
+  "user_info_gender": "Gender",
+  "user_info_birthday": "Birthday",
+  "user_info_location": "Address",
+  "user_info_phone": "Phone",
+  "error_message": "Something went wrong 😟"
+}

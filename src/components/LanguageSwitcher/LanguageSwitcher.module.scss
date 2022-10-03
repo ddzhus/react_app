@@ -1,0 +1,19 @@
+@use '../../styles/variables';
+
+$border: 1px solid hsla(0, 0%, 0%, 0.23);
+
+.languageSwitcher {
+  padding: 8px;
+  border: $border;
+  background-color: transparent;
+  border-radius: 2px;
+
+  &:hover {
+    border-color: variables.$primary-color;
+    transition: border 250ms ease;
+  }
+
+  &:focus-within {
+    outline-color: variables.$primary-color;
+  }
+}

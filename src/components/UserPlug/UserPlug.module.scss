@@ -1,0 +1,10 @@
+@use '../../styles/variables';
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 186px);
+  width: 100%;
+  color: variables.$primary-color;
+}

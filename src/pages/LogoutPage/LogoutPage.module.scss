@@ -1,0 +1,8 @@
+$header-height: 186px;
+
+.logoutPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - $header-height);
+}

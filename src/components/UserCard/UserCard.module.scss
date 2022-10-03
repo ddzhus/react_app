@@ -1,0 +1,25 @@
+@use '../../styles/variables';
+
+.genderMale {
+  border-color: variables.$primary-color;
+
+  &:hover {
+    transition: background-color 250ms ease-in;
+    background-color: hsla(195, 53%, 79%, 0.350);
+  }
+}
+
+.genderFemale {
+  border-color: hsl(350, 88%, 73%);
+
+  &:hover {
+    transition: background-color 250ms ease-in;
+    background-color: hsla(350, 88%, 73%, 0.350);
+  }
+}
+
+.divider {
+  width: 1px;
+  min-height: 100%;
+  background-color: gray;
+}

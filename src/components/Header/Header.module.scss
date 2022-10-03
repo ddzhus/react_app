@@ -1,0 +1,12 @@
+$shadow: inset 0px -1px 1px #e7ebf0;
+
+.header {
+  box-shadow: $shadow;
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  justify-content: space-between;
+  margin: 0 auto;
+}

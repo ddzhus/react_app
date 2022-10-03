@@ -1,0 +1,8 @@
+$header-height: 72px;
+
+.loginPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - $header-height);
+}

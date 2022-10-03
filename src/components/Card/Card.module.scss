@@ -1,0 +1,12 @@
+$border: 1px solid hsla(0, 0%, 0%, 0.23);
+
+.card {
+  display: inline-flex;
+  padding: 16px;
+  border: $border;
+  background-color: transparent;
+  border-radius: 2px;
+  gap: 16px;
+  min-width: 450px;
+  justify-content: center;
+}

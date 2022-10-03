@@ -1,0 +1,26 @@
+@use '../../styles/variables';
+
+$border: 1px solid (variables.$primary-color);
+$shadow: rgb(0 0 0/ 20%) 0 3px 1px -2px, rgb(0 0 0/ 14%) 0 2px 2px 0, rgb(0 0 0/ 12%) 0 1px 5px 0;
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: variables.$primary-color;
+  line-height: 1.5;
+  border: $border;
+  border-radius: 4px;
+  padding: 8px 22px;
+  background-color: #fff;
+  box-shadow: $shadow;
+  text-decoration: none;
+
+  &:hover {
+    background-color: hsla(variables.$hue, variables.$saturation, variables.$light, 0.1);
+    box-shadow: none;
+    transition: background-color 250ms ease-in, box-shadow 250ms ease-in;
+  }
+}
